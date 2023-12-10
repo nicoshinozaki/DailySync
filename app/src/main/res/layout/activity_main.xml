@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,35 +15,36 @@
         android:layout_height="111dp"
         app:srcCompat="@drawable/logo" />
 
+    <ImageButton
+        android:id="@+id/todoButton"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/todo" />
 
     <ImageButton
         android:id="@+id/journalButton"
         android:layout_width="match_parent"
         android:layout_height="118dp"
-        android:layout_below="@id/imageView"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/journal" />
 
+    <ImageButton
+        android:id="@+id/notifButton"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/notif" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/notif"
+        android:id="@+id/logout_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
+        android:layout_gravity="start"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="3dp"
         android:clickable="true"
         app:backgroundTint="@color/green"
-        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/logout_user"
-        android:layout_width="65dp"
-        android:layout_height="57dp"
-        android:layout_below="@id/notif"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="-55dp"
-        android:layout_marginEnd="325dp"
-        android:clickable="true"
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
-</RelativeLayout>
+</LinearLayout>

@@ -13,9 +13,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-    FloatingActionButton notifButton;
     FloatingActionButton logoutButton;
     ImageButton todoListButton;
+    ImageButton notifButton;
     ImageButton journalButton;
 
     @Override
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        notifButton = findViewById(R.id.notif);
+        notifButton = findViewById(R.id.notifButton);
         logoutButton = findViewById(R.id.logout_user);
         journalButton = findViewById(R.id.journalButton);
 

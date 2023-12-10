@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/spacer1"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/setTime"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:text="Set Your Notification Times"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/goalReminder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Goal Reminder" />
+
+    <Button
+        android:id="@+id/selectTime1"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Set Time" />
+
+    <TextView
+        android:id="@+id/spacer2"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="0dp" />
+
+    <TextView
+        android:id="@+id/journalReminder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Journal Reminder"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/selectTime2"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Set Time" />
+
+
+</LinearLayout>

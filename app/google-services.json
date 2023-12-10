@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466107162922",
+    "project_id": "dailysync-ece150",
+    "storage_bucket": "dailysync-ece150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466107162922:android:829c44cf89bb0035b77e53",
+        "android_client_info": {
+          "package_name": "com.example.dailysync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFcAf6A_87-lyQ0BOV8QxQby_MStc_vHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

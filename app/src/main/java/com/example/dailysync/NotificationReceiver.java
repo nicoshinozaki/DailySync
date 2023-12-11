@@ -21,10 +21,10 @@ public class NotificationReceiver extends BroadcastReceiver {
             Log.d("Nicolas Shinozaki", "requestCode = " + requestCode);
             switch (requestCode) {
                 case 1:
-                    sendNotification(context,"Reminder: Set Your Goals!", NotificationActivity.class);
+                    sendNotification(context,"Reminder: Set Your Goals!", /*should be ToDoListActivity if worked properly*/NotificationActivity.class);
                     break;
                 case 2:
-                    sendNotification(context,"Reminder: Log Your Day!", NotificationActivity.class);
+                    sendNotification(context,"Reminder: Log Your Day!", /*should be ToDoListActivity if worked properly*/NotificationActivity.class);
                     break;
                 default:
                     break;

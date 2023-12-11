@@ -6,17 +6,10 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/spacer1"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:text=""
-        android:textAlignment="center"
-        android:textSize="30dp" />
-
-    <TextView
         android:id="@+id/setTime"
         android:layout_width="match_parent"
-        android:layout_height="178dp"
+        android:layout_height="162dp"
+        android:padding="20dp"
         android:text="Set Your Notification Times"
         android:textAlignment="center"
         android:textSize="30dp" />

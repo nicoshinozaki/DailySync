@@ -96,7 +96,7 @@ public class NotificationActivity extends AppCompatActivity {
                                     intent.putExtra("REQUEST_CODE", REQUEST_CODE);
                                     Log.d("Nicolas Shinozaki", "REQUEST_CODE = " + REQUEST_CODE);
                                     pendingIntent = PendingIntent.getBroadcast(NotificationActivity.this, REQUEST_CODE, intent, PendingIntent.FLAG_IMMUTABLE);
-                                    //pendingIntent.send(getApplicationContext(), REQUEST_CODE, intent);
+                                    pendingIntent.send(getApplicationContext(), REQUEST_CODE, intent);
                                     alarmManager = (AlarmManager) getApplicationContext().getSystemService(Context.ALARM_SERVICE);
                                     if (alarmManager != null) {
                                         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
